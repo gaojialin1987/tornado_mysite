@@ -10,5 +10,6 @@ class BaseHandler(RequestHandler):
 # 根视图处理类
 class IndexHandler(BaseHandler):
 
+    # get函数
     def get(self):
         self.render('index.html')
